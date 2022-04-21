@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- My Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">     
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/bundles/pimcoreadmin/css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Script -->
+    <script src="https://kit.fontawesome.com/0e4299bc41.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Ajukan Kredit Mobil - BFI Finance</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar-form sticky-top">
+      <div class="container">
+        <a style="font-size:12px; text-decoration:none;" href="/homepage"><i class="fa-solid fa-angle-left" style="color:white;"></i>
+          <span>Kembali ke Beranda</span>
+        </a>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand" href="/homepage">
+            <img src="/bundles/pimcoreadmin/img/bfi/logo.jpeg" alt="logo">
+          </a>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+  <div class="container">
+
+    <div class="step">
+        <ul id="progressbar">
+          <li class="active">Data Pemohon</li>
+          <li>Data Tempat Tinggal</li>
+          <li>Data Kendaraan</li>
+          <li>Jumlah Pembiayaan</li>
+          <li>Konfirmasi Data</li>
+        </ul>
+       </div>
+      </div>
+      
+    
+    <form id="msform">
+        <fieldset>
+            <h2 class="fs-title">Data Pemohon Jaminan Mobil</h2>
+            <h3 class="fs-subtitle">Silahkan masukan data diri anda</h3>
+            <input type="text" name="nama" placeholder="Nama Lengkap" required />
+            <input type="text" name="email" placeholder="Email" required />
+            <input type="text" name="phone" placeholder="Nomor Handphone" />
+            <input type="button" name="next" class="next action-button" value="Selanjutnya" />
+        </fieldset>
+        <fieldset>
+            <h2 class="fs-title">Data Tempat Tinggal</h2>
+            <h3 class="fs-subtitle">Silahkan masukkan data tempat tinggal Anda</h3>
+            <div class="wrapper">
+              <div class="select-btn">
+                <span>Pilih Provinsi</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="content">
+                <ul class="options"></ul>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="select-btn">
+                <span>Pilih Kota</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="content">
+                <ul class="options"></ul>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="select-btn">
+                <span>Pilih Kecamatan</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="content">
+                <ul class="options"></ul>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="select-btn">
+                <span>Pilih Kelurahan</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="content">
+                <ul class="options"></ul>
+              </div>
+            </div>
+            <input type="button" name="previous" class="previous action-button" value="Sebelumnya" />
+            <input type="button" name="next" class="next action-button" value="Selanjutnya" />
+            
+        </fieldset>
+        <fieldset>
+            <h2 class="fs-title">Data Kendaraan</h2>
+            <h3 class="fs-subtitle">Silahkan masukkan data kendaraan Anda</h3>
+            <div class="wrapper">
+              <div class="select-btn">
+                <span>Tipe Mobil</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="content">
+                <ul class="options"></ul>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="select-btn">
+                <span>Merk Kendaraan</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div class="content">
+                <ul class="options"></ul>
+              </div>
+            </div>
+            
+            <input type="button" name="previous" class="previous action-button" value="Sebelumnya" />
+            <input type="button" name="next" class="next action-button" value="Selanjutnya" />
+            
+        </fieldset>
+
+    </form>
+  
+
+
+    <!-- Footer -->
+    <footer class="footer-bfi-form">
+      <div class="group-2-form">
+          <small>&copy;<b> 2022 - PT BFI Finance Indonesia Tbk</b></small>
+          <span>Karir</span>
+          <span>Peluang Bisnis</span>
+          <span>Cabang Kami</span>
+          <span>Syarat & Penggunaan</span>
+          <span>Privasi</span>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+  </div>
+
+  <!-- Akhir Container -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="/bundles/pimcoreadmin/js/pimcore/script.js"></script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

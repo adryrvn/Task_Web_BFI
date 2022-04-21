@@ -1,0 +1,15 @@
+pimcore:
+    staticroutes:
+        definitions:
+            d7893faa-af3e-4766-bf6c-502feba6311d:
+                name: formmobil
+                pattern: ''
+                reverse: ''
+                controller: 'App\Controller\HomepageController::defaultAction'
+                variables: ''
+                defaults: ''
+                siteId: {  }
+                methods: {  }
+                priority: 0
+                creationDate: 1650511373
+                modificationDate: 1650511424
